@@ -4,6 +4,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
@@ -17,22 +18,25 @@
 		<a href="#" id="logo">
 			<img src="img/fuso-logo.png" />
 		</a>
+
 		<nav id="main-nav">
-			<ul>
-				<li><a href="">Camiones</a>
-					<ul class="dropdown">
-						<li><a href="#first_section">Canter 3.5</a></li>				
-						<li><a href="#second_section">Canter 6</a></li>
-						<li><a href="#third_section">Canter 4x4</a></li>
-						<li><a href="#forth_section">Canter 7.5</a></li>
-						<li><a href="#fifth_section">Canter Eco Hybrid</a></li>
-						<li><a href="#sixth_section">Canter 8.5</a></li>
-					</ul>
-				</li>
-				<li><a href="">Promociones</a></li>
-				<li><a href="">Carrozados</a></li>
-				<li><a href="">Postventa</a></li>
-			</ul>
+				<span class="hamburger"><i class="fas fa-bars fa-lg"></i></span>
+				<span class="cross"><i class="fas fa-times fa-lg"></i></span>
+				<ul class="first-level">
+					<li><a>Camiones</a>
+						<ul class="dropdown">
+							<li><a href="#first_section">Canter 3.5</a></li>				
+							<li><a href="#second_section">Canter 6</a></li>
+							<li><a href="#third_section">Canter 4x4</a></li>
+							<li><a href="#forth_section">Canter 7.5</a></li>
+							<li><a href="#fifth_section">Canter Eco Hybrid</a></li>
+							<li><a href="#sixth_section">Canter 8.5</a></li>
+						</ul>
+					</li>
+					<li><a href="">Promociones</a></li>
+					<li><a href="">Carrozados</a></li>
+					<li><a href="">Postventa</a></li>
+				</ul>
 		</nav>
 		
 	</header>
@@ -59,12 +63,18 @@
 			<!-- Important! Data anchor must be different to id's in page --> 
 			<div class="section" id="section1" data-anchor="first_section">
 				<div class="background">
-					<h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1>
+					<img class="background-collapse" src="img/fuso1.jpg">
+					<div class="content">
+						<h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1><h1>Section 1</h1>
+					</div>
 				</div>
 			</div>
 			<div class="section" id="section2" data-anchor="second_section">
 				<div class="background">
-					<h1>Section 2</h1>
+					<img class="background-collapse" src="img/fuso2.jpg">
+					<div class="content">
+						<h1>Section 2</h1>
+					</div>
 				</div>								
 			</div>
 				<!-- <div class="slide">
@@ -84,12 +94,36 @@
 			</div> -->
 			<div class="section" id="section3" data-anchor="third_section">
 				<div class="background">
-					<h1>Section 3</h1>
+					<img class="background-collapse" src="img/fuso3.jpg">
+					<div class="content">
+						<h1>Section 3</h1>
+					</div>
 				</div>
 			</div>
-			<div class="section" id="section4" data-anchor="forth_section"><h1>Section 4</h1></div>
-			<div class="section" id="section5" data-anchor="fifth_section"><h1>Section 5</h1></div>
-			<div class="section" id="section6" data-anchor="sixth_section"><h1>Section 6</h1></div>
+			<div class="section" id="section4" data-anchor="forth_section">
+				<div class="background">
+					<img class="background-collapse" src="img/fuso1.jpg">
+					<div class="content">
+						<h1>Section 4</h1>
+					</div>
+				</div>
+			</div>
+			<div class="section" id="section5" data-anchor="fifth_section">
+				<div class="background">
+					<img class="background-collapse" src="img/fuso2.jpg">
+					<div class="content">
+						<h1>Section 5</h1>
+					</div>
+				</div>
+			</div>
+			<div class="section" id="section6" data-anchor="sixth_section">
+				<div class="background">
+					<img class="background-collapse" src="img/fuso3.jpg">
+					<div class="content">
+						<h1>Section 6</h1>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -111,35 +145,71 @@
 <script type="text/javascript">
 	$(document).ready(function() {
 		
-		$('#fullpage').fullpage({
-			navigation: true,
-			navigationPosition: 'left',
+		if($(window).width() > 1024){
 
-			fixedElements: 'header, #secondary-nav',
-			scrollOverflow: true,
-			touchSensitivity: 100,
+			$('#fullpage').fullpage({
+				navigation: true,
+				navigationPosition: 'left',
 
-			controlArrows: false,
-			slideSelector: '',
-	        // afterRender: function(){
-	        //     setInterval(function(){
-	        //             $.fn.fullpage.moveSlideRight();
-	        //     }, 500);
-	        // }
-		});	
+				fixedElements: 'header, #secondary-nav',
+				scrollOverflow: true,
+				touchSensitivity: 100,
 
-		$('.background').each( function(){
-			$(this).vegas({
-			    slides: [
-			        { src: "img/fuso1.jpg" },
-			        { src: "img/fuso2.jpg" },
-			        { src: "img/fuso3.jpg" },
-			    ],
-			    transition: 'fade',
-			    delay: 8000,
-			    timer: false,
+				controlArrows: false,
+				slideSelector: '',
+		        // afterRender: function(){
+		        //     setInterval(function(){
+		        //             $.fn.fullpage.moveSlideRight();
+		        //     }, 500);
+		        // }
+			});	
+
+		
+			$('.background').each( function(){
+				$(this).vegas({
+				    slides: [
+				        { src: "img/fuso1.jpg" },
+				        { src: "img/fuso2.jpg" },
+				        { src: "img/fuso3.jpg" },
+				    ],
+				    transition: 'fade',
+				    delay: 8000,
+				    timer: false,
+				});
+			});
+		};
+
+
+		$( ".cross" ).hide();
+		$( ".hamburger" ).click(function() {
+			
+			$( "#main-nav ul:first" ).show(function() {
+				$( ".hamburger" ).hide();
+				$( ".cross" ).show();
 			});
 		});
+
+		$( ".cross" ).click(function() {
+			$( "#main-nav ul:first" ).hide(function() {
+				$( ".cross" ).hide();
+				$( ".hamburger" ).show();
+			});
+		});
+
+		$( "#main-nav ul li" ).click(function() {	
+			$(this).find('.dropdown').toggle();		
+			$(this).find('.dropdown li').toggle();
+			
+		});
+
+		$( ".dropdown li" ).click(function() {
+			$( "#main-nav ul:first" ).hide(function() {
+				$( ".cross" ).hide();
+				$(this).css("display", "none");
+				$(".hamburger").show();
+			});
+		});
+
 
 		// 	var n_slides = $('.slide', this).length;
 
